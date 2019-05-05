@@ -1,49 +1,14 @@
 ---
-title:  "COMP1850"
+layout: default
 ---
 
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Welcome to GitHub Pages | COMP1850 Intermediate Web Design and Development</title>
-<meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Welcome to GitHub Pages" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://localhost:4000/" />
-<meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="COMP1850 Intermediate Web Design and Development" />
-<script type="application/ld+json">
-{"url":"http://localhost:4000/","headline":"Welcome to GitHub Pages","name":"COMP1850 Intermediate Web Design and Development","@type":"WebSite","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <link rel="stylesheet" href="https://use.typekit.net/fai7gxy.css">
-    <link rel="stylesheet" href="/assets/css/style.css?v=">
-    <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1><a href="http://localhost:4000/">COMP1850 Intermediate Web Design and Development</a></h1>
-        
-        <ul>
-          {% for post in site.posts %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-          {% endfor %}
-        </ul>
-
-      </header>
-      <section>
-
-      <h2 id="welcome-to-github-pages">Welcome to GitHub Pages</h2>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
 <p>You can use the <a href="https://github.com/chrisharrisx/chrisharrisx.github.io/edit/master/README.md">editor on GitHub</a> to maintain and preview the content for your website in Markdown files.</p>
 
@@ -79,15 +44,3 @@ title:  "COMP1850"
 <h3 id="support-or-contact">Support or Contact</h3>
 
 <p>Having trouble with Pages? Check out our <a href="https://help.github.com/categories/github-pages-basics/">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-
-
-      </section>
-      <footer>
-        
-        <p><small>Hosted on GitHub Pages</small></p>
-      </footer>
-    </div>
-    <script src="/assets/js/scale.fix.js"></script>
-    
-  </body>
-</html>
